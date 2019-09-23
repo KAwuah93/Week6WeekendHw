@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    android:layout_height="match_parent"
+    tools:context=".view.activities.MenuActivity">
+
+    <Button
+        android:onClick="onClick"
+        android:background="@color/light_slate_gray"
+    android:text="SMS"
+        android:id="@+id/btnSmsTransition"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"/>
+
+    <Button
+        android:background="@color/light_salmon"
+        android:text="Timer"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btnMysteryPopup"
+        android:background="@color/coral"
+        android:text="Mystery Picture"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/btnPDF"
+        android:text="PDF Viewer"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+
+
+</LinearLayout>
